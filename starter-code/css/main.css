@@ -140,32 +140,41 @@ nav {width:inherit;
   justify-content: center;
   align-self: center;
   margin:5%;
-
-}
+  }
   .kanye-left h4{
       font-size: 20px;
       border-bottom: 4px solid white;
-      padding: 20px 20px 10px 0px;
-  }
+      padding: 0px 20px 10px 0px;
+      max-height:900px;
+      margin-top:0px;
+    }
     .kanye-left{
       width: 300px;
       margin-right: 40px;
-    }
-.kanye-left h5{
-  font-size: 25px;
-  line-height: 2;
-  margin: 10px 0px 10px 0px;
-}
+      max-height:500px;
+      }
 
-    .kanye-right img{
-      margin-left:40px;
+    .kanye-left p{
+      font-weight:100;
+      width: 180px;
+      margin-right:80px;
+    }
+    .kanye-left h5{
+      font-size: 25px;
+      line-height: 2;
+      margin: 10px 0px 10px 0px;
+      }
+  .kanye-right img{
+    margin-left:40px;
     /*margin: 10px 10px 10px 20px;*/
-    width:300px;
-    height:auto;
+    width:auto;
+    height:500px;
     }
-
-
-
-
-
-;
+.kanye-spotify{
+  height:20%;
+  width:auto;
+  float:right;
+  top: -300px;
+  overflow-y: auto;
+  position:relative;
+}
