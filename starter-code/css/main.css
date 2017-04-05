@@ -1,8 +1,171 @@
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+body{width:100%;
+  background-color:white;
+  font-family:sans-serif;
+  left:-0.5px;
+  top:-0.5px
+  }
+nav {width:inherit;
+  position: fixed;
+  left:-0.5px;
+  top:-0.5px;
+  height: 70px;
+  padding: 20px;
+  max-width: -webkit-fill-available;
+  /*https://developer.mozilla.org/en-US/docs/Web/CSS/max-width#Values*/
+  background-color:white;
+  z-index: 5;
+  }
+  nav img {
+    position:relative;
+    float:left;
+    width:200px;
+    height:auto;
+    top:15px;
+    left:10px;
+    }
+    nav ul {
+      color: #1A1A1A;
+      /*width: 80%;*/
+      height: 80px;
+      max-width: 100%;
+      margin: 0px;
+      padding: 20px 0px 0px 0px;
+      overflow: visible;
+      }
+      nav ul li {
+        margin:20px;
+        position:relative;
+        float:right;
+        display: inline-block;
+        }
+
+    .big-title {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      overflow: hidden;
+      color:white;
+      line-height: 3;
+      text-align:center;
+      top:120px;
+      min-height:654px;
+      max-height:900px;
+      position:relative;
+      background-image: url("/Users/filkckm/Ironhack_April/week1/day3/lab-css-spotify-clone/starter-code/images/landing.jpg");
+      height:100%;
+      width:100%;
+      background-position:center;
+      background-repeat:no-repeat;
+      background-size: cover;
+      z-index:-1;
+      vertical-align:middle;
+      }
+
+.whats-spotify{
+  position:relative;
+  font-family:sans-serif;
+  text-align: center;
+  height:100px;
+  top: 120px;
+
+  }
+    .whats-spotify > h2{
+      text-decoration-line: underline;
+      text-decoration-color: #00B172;
+      height: 50px;
+      padding-top:10px;
+    }
+.spotify-features {
+  position:relative;
+  width:100%;
+  height:auto;
+  top:80px;
+  margin-bottom:5%;
+  display:flex;
+  justify-content: center;
+  }
+  .feature-header{
+    color:#00B172;
+  }
+    .feature-1{
+      font-family:sans-serif;
+      text-align:center;
+      height:200px;
+      width:150px;
+      margin-left:5%;
+      margin-right: 5%;
+      }
+        .feature-1 > img {
+          width:50%;
+        }
+    .feature-2{
+      font-family:sans-serif;
+      text-align:center;
+      height:200px;
+      width:150px;
+      margin-left:5%;
+      margin-right: 5%;
+    }
+    .feature-2 > img {
+      width:50%;
+    }
+
+    .feature-3{
+      font-family:sans-serif;
+      text-align:center;
+      height:200px;
+      width:150px;
+      margin-left:5%;
+      margin-right:5%;
+    }
+    .feature-3 > img {
+      width:50%;
+    }
+
+
+.kanye-west {
+  widows: 80%;
+  display:flex;
+  background-color:#00B172;
+  color: white;
+  padding: 30px;
+  justify-content: center;
+  align-self: center;
+  margin:5%;
+
+}
+  .kanye-left h4{
+      font-size: 20px;
+      border-bottom: 4px solid white;
+      padding: 20px 20px 10px 0px;
+  }
+    .kanye-left{
+      width: 300px;
+      margin-right: 40px;
+    }
+.kanye-left h5{
+  font-size: 25px;
+  line-height: 2;
+  margin: 10px 0px 10px 0px;
+}
+
+    .kanye-right img{
+      margin-left:40px;
+    /*margin: 10px 10px 10px 20px;*/
+    width:300px;
+    height:auto;
+    }
+
+
+
+
+
+;
