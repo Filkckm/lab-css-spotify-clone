@@ -12,6 +12,17 @@ body{width:100%;
   left:-0.5px;
   top:-0.5px
   }
+  h1{
+    font-size: 60px;
+    margin-bottom:0px;
+    line-height: 2;
+  }
+.big-title >article{
+  font-size: 20px;
+  font-weight:100;
+  line-height: normal;
+
+}
 nav {width:inherit;
   position: fixed;
   left:-0.5px;
@@ -82,10 +93,12 @@ nav {width:inherit;
       text-decoration-color: #00B172;
       height: 50px;
       padding-top:10px;
+      min-width: 820px;
     }
 .spotify-features {
   position:relative;
   width:100%;
+  min-width: 820px;
   height:auto;
   top:80px;
   margin-bottom:5%;
@@ -140,6 +153,7 @@ nav {width:inherit;
   justify-content: center;
   align-self: center;
   margin:5%;
+  min-width: 780px;
   }
   .kanye-left h4{
       font-size: 20px;
